@@ -21,8 +21,8 @@ nav{
 }
 
 .logo img{
-    width: 120px;
-    height: 22px;
+    width: 150px;
+    height: 80px;
 }
 
 .user{
@@ -49,6 +49,7 @@ nav{
     color: white;
     font-weight: 600;
     display: none;
+    margin-left: 10%;
 }
 
 ul{
@@ -384,8 +385,8 @@ footer li{
 }
 
 .amz-logo{
-    width: 109px;
-    height: 32px;
+    width: 150px;
+    height: 80px;
     margin-top: 25px;
 
 }
