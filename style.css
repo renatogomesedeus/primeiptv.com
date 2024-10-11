@@ -25,6 +25,10 @@ nav{
     height: 80px;
 }
 
+#sprite-plyr {
+    border: solid red;
+}
+
 .user{
     padding: 0px 0px 0px 20px;
     margin: 10px;
@@ -197,7 +201,7 @@ li{
 }
 
 .section1{
-    background-image: linear-gradient(to right, black 40%, transparent ), url(BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+    background-image: linear-gradient(to right, black 40%, transparent ), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
     background-position: right top;
     background-repeat: no-repeat;
     height: 600px
@@ -308,7 +312,7 @@ li{
 }
 
 .section3{
-    background: linear-gradient(to left, black 35%, transparent ), url(MLP_BG_left_1440x675.jpg);
+    background: linear-gradient(to left, black 35%, transparent ), url(/imagens/MLP_BG_left_1440x675.jpg);
     background-position: top left;
     background-repeat: no-repeat;
     height: 660px;
@@ -422,7 +426,7 @@ footer p{
 
 @media (max-width:1024px){
     .section1{
-        background: linear-gradient(to top, black 60%, transparent ), url(BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+        background: linear-gradient(to top, black 60%, transparent ), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
         height: 1000px;
         display: flex;
         align-items: center;
@@ -475,7 +479,7 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(to top, black 35%, transparent ), url(MLP_BG_left_1440x675.jpg);
+        background: linear-gradient(to top, black 35%, transparent ), url(/imagens/MLP_BG_left_1440x675.jpg);
         background-position: top top;
         background-repeat: no-repeat;
         height: 1000px;
