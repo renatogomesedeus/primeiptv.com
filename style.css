@@ -447,6 +447,7 @@ footer p{
         flex-direction: column;
         align-items: center;
         margin-top: 1px;
+        
     }
 
     .container-texts-2{
@@ -465,7 +466,8 @@ footer p{
         align-items: center;
         text-align: center;
         width: 90%;
-        margin: 0;
+        margin-top: 300px; 
+        
     }
 
     .section3{
@@ -476,7 +478,7 @@ footer p{
         background-position: top top;
         background-repeat: no-repeat;
         height: 1000px;
-        
+                
     }
 
     .conteudo3{
