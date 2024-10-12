@@ -1,6 +1,5 @@
  
 
-
 function inicioMenu(){
     let inicio = document.querySelector(".inicio-menu")
     inicio.classList.add("open")
