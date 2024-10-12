@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     list-style-type: none;
@@ -8,11 +8,12 @@
     cursor: default;
 }
 
-button:hover, li{
+button:hover,
+li {
     cursor: pointer;
 }
 
-nav{
+nav {
     background-color: #00050d;
     display: flex;
     flex-direction: row;
@@ -20,35 +21,60 @@ nav{
     align-items: center;
 }
 
-.logo img{
+.logo img {
     width: 150px;
     height: 80px;
 }
 
-#sprite-plyr {
-    border: solid red;
+.loja-responsiva:hover{    
+    font-size: 20px;
+    color: #6caefa;
+    transition: 0.3s;
 }
 
-.user{
+section details summary {
+    background-color: #6caefa;
+    padding: 1%;
+    border-bottom: 1px solid #ffffff;
+    border-radius: 5px;
+    
+}
+summary:hover{   
+    color: rgb(86, 125, 182);
+    transition: all .1s; 
+    font-size: 20px;
+}
+
+section details p {
+    background-color: #cfe3e9;
+    padding: 2%;
+    transition: all .5s;    
+}
+
+#sprite-plyr {
+    border: solid blue;
+}
+
+.user {
     padding: 0px 0px 0px 20px;
     margin: 10px;
 }
 
-.user img{
+.user img {
     width: 35px;
     height: 35px;
 }
 
-.pesquisa img{
+.pesquisa img {
     fill: white;
 }
 
-.camp{
+.camp {
     display: flex;
     align-items: center;
 }
 
-.menu-resp{
+.menu-resp {
     font-size: 18px;
     color: white;
     font-weight: 600;
@@ -56,12 +82,12 @@ nav{
     margin-left: 10%;
 }
 
-ul{
+ul {
     display: flex;
     margin: 0px 40px;
 }
 
-li{
+li {
     font-size: 18px;
     color: #aaaaaa;
     padding: 15px 20px;
@@ -70,7 +96,7 @@ li{
     display: flex;
 }
 
-.menu li:hover{
+.menu li:hover {
     background-color: #191e25;
     color: white;
     display: flex;
@@ -78,20 +104,23 @@ li{
 
 }
 
-.open-menu, .open-menu2, .open-menu4{
+.open-menu,
+.open-menu2,
+.open-menu4 {
     display: flex;
     align-items: center;
     justify-content: start;
 }
 
-.open-menu3{
+.open-menu3 {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 
-.inicio-menu{
+
+.inicio-menu {
     z-index: 2;
     margin-top: 255px;
     position: absolute;
@@ -100,7 +129,7 @@ li{
     border-radius: 0px 0px 8px 8px;
 }
 
-.inicio-menu2{
+.inicio-menu2 {
     z-index: 3;
     margin-top: 200px;
     position: absolute;
@@ -109,7 +138,7 @@ li{
     border-radius: 0px 0px 8px 8px;
 }
 
-.inicio-menu3{
+.inicio-menu3 {
     z-index: 5;
     margin-top: 445px;
     position: absolute;
@@ -119,7 +148,7 @@ li{
     border-radius: 0px 0px 8px 8px;
 }
 
-.inicio-menu4{
+.inicio-menu4 {
     z-index: 4;
     margin-top: 200px;
     position: absolute;
@@ -128,103 +157,112 @@ li{
     border-radius: 0px 0px 8px 8px;
 }
 
-.inicio-menu.open, .inicio-menu2.open, .inicio-menu4.open{
+.inicio-menu.open,
+.inicio-menu2.open,
+.inicio-menu4.open {
     display: block;
 }
 
-.inicio-menu3.open{
+.inicio-menu3.open {
     display: flex;
 }
 
-.inicio-menu ul, .inicio-menu2 ul, .inicio-menu3 ul, .inicio-menu4 ul{
+.inicio-menu ul,
+.inicio-menu2 ul,
+.inicio-menu3 ul,
+.inicio-menu4 ul {
     display: flex;
     flex-direction: column;
     margin: 0;
-    
+
 }
 
-.generos{
+.generos {
     display: flex;
     padding: 30px 70px;
-    
+
 }
 
-.destaques{
+.destaques {
     padding: 30px 30px 30px 30px;
 
 }
 
-.generos p, .destaques p{
+.generos p,
+.destaques p {
     color: white;
     font-size: 18px;
     font-weight: 600;
     padding-bottom: 10px;
 }
 
-.generos ul:nth-child(2){
+.generos ul:nth-child(2) {
     padding-top: 30px;
 }
 
-.inicio-menu li:hover, .inicio-menu2 li:hover, .inicio-menu3 li:hover, .inicio-menu4 li:hover{
+.inicio-menu li:hover,
+.inicio-menu2 li:hover,
+.inicio-menu3 li:hover,
+.inicio-menu4 li:hover {
     background-color: white;
     border-radius: 6px;
     color: #191e25;
 }
 
-.inicio-menu li:hover{
+.inicio-menu li:hover {
     background-color: white;
     color: #191e25;
 }
 
-.inicio-menu li{
+.inicio-menu li {
     padding: 15px 5px;
 }
 
-.inicio-menu2 li{
+.inicio-menu2 li {
     padding: 15px 15px;
 
 }
 
-.inicio-menu4 li{
+.inicio-menu4 li {
     padding: 15px 15px;
 
 }
 
-.generos li{
+.generos li {
     padding: 15px 45px 15px 10px;
 
 }
 
-.destaques li{
+.destaques li {
     padding: 15px 45px 15px 10px;
 
 }
 
-.section1{
-    background-image: linear-gradient(to right, black 40%, transparent ), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+.section1 {
+    background-image: linear-gradient(to right, black 40%, transparent), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
     background-position: right top;
     background-repeat: no-repeat;
     height: 600px
 }
 
-.conteudo{
+.conteudo {
     width: 47%;
     color: white;
-    
+
 
 }
 
-.informations{
+.informations {
     font-size: 20px;
     margin-bottom: 40px;
 }
 
-.container-texts{
+.container-texts {
     margin-left: 45px;
     padding-top: 50px;
 }
 
-.container-texts h1{
+.container-texts h1 {
     font-size: 40px;
     font-weight: 400;
     margin-bottom: 30px;
@@ -232,31 +270,31 @@ li{
 
 
 
-.assinar{
+.assinar {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin-bottom: 20px;
 }
 
-.ou{
+.ou {
     display: flex;
     align-items: center;
     margin: 15px 0px;
 }
 
-.ou p{
+.ou p {
     margin: 0px 5px;
     font-weight: 600;
 }
 
-.line{
+.line {
     background-color: white;
     height: 1px;
     width: 125px;
 }
 
-.assinar button{
+.assinar button {
     width: 280px;
     height: 48px;
     background-color: #0F79AF;
@@ -267,39 +305,39 @@ li{
     font-size: 16px;
 }
 
-.informacao-importante{
+.informacao-importante {
     font-size: 14px;
 
 }
 
-.section2{
+.section2 {
     display: flex;
 }
 
-.container-2{
+.container-2 {
     display: flex;
     margin-top: 15px;
     justify-content: space-evenly;
     margin-bottom: 10px;
 }
 
-.container-texts-2{
+.container-texts-2 {
     margin-top: 20px;
     width: 42%;
 }
 
-.container-texts-2 h1{
+.container-texts-2 h1 {
     font-size: 44px;
     font-weight: 600;
     margin-bottom: 25px;
 }
 
-.container-texts-2 p{
+.container-texts-2 p {
     font-size: 24px;
 
 }
 
-.services{
+.services {
     display: flex;
     width: 50%;
 
@@ -307,12 +345,12 @@ li{
 
 
 
-.services img{
+.services img {
     width: 95%;
 }
 
-.section3{
-    background: linear-gradient(to left, black 35%, transparent ), url(/imagens/MLP_BG_left_1440x675.jpg);
+.section3 {
+    background: linear-gradient(to left, black 35%, transparent), url(/imagens/MLP_BG_left_1440x675.jpg);
     background-position: top left;
     background-repeat: no-repeat;
     height: 660px;
@@ -320,7 +358,7 @@ li{
     justify-content: end;
 }
 
-.conteudo2{
+.conteudo2 {
     display: flex;
     flex-direction: column;
     width: 45%;
@@ -328,7 +366,7 @@ li{
     margin-right: 35px;
 }
 
-.conteudo2 button{
+.conteudo2 button {
     width: 280px;
     height: 48px;
     background-color: #0F79AF;
@@ -339,40 +377,40 @@ li{
     font-size: 16px;
 }
 
-.conteudo2 h1{
+.conteudo2 h1 {
     font-size: 40px;
     color: white;
     margin-bottom: 20px;
 }
 
-.conteudo2 p{
+.conteudo2 p {
     font-size: 20px;
     color: white;
     margin-bottom: 50px;
 }
 
-.conteudo3{
+.conteudo3 {
     display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 20px;
 }
 
-.infos{
+.infos {
     width: 33%;
 }
 
 
-.infos h1{
+.infos h1 {
     font-size: 33px;
 }
 
-.infos p{
+.infos p {
     font-size: 20px;
     margin-top: 10px;
 }
 
-footer{
+footer {
     background-color: #222222;
     display: flex;
     flex-direction: column;
@@ -380,7 +418,7 @@ footer{
     margin-top: 10px;
 }
 
-footer li{
+footer li {
     color: #0f79af;
     font-size: 15px;
     margin-top: 15px;
@@ -388,116 +426,116 @@ footer li{
     padding: 0px 10px;
 }
 
-.amz-logo{
+.amz-logo {
     width: 150px;
     height: 80px;
     margin-top: 25px;
 
 }
 
-footer p{
+footer p {
     font-size: 13px;
     color: #949494;
     font-weight: 600;
     margin: 15px 0px;
 }
 
-.coluna img:hover{
+.coluna img:hover {
     box-shadow: black -1px -2px 20px 1px;
     cursor: pointer;
 }
 
-@media (max-width:880px){
+@media (max-width:880px) {
 
-    .menu-resp{
+    .menu-resp {
         display: block;
     }
 
-    .menu{
+    .menu {
         display: none;
     }
 
-    nav{
+    nav {
         justify-content: space-between;
     }
 
 
 }
 
-@media (max-width:1024px){
-    .section1{
-        background: linear-gradient(to top, black 60%, transparent ), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
+@media (max-width:1024px) {
+    .section1 {
+        background: linear-gradient(to top, black 60%, transparent), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
         height: 1000px;
         display: flex;
         align-items: center;
         justify-content: center;
     }
 
-    .conteudo{
+    .conteudo {
         width: 95%;
         text-align: center;
         justify-content: center;
 
     }
 
-    .assinar{
+    .assinar {
         justify-content: center;
         align-items: center;
     }
 
-    
-    .container-2{
+
+    .container-2 {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-top: 1px;
-        
+
     }
 
-    .container-texts-2{
+    .container-texts-2 {
         width: 85%;
         text-align: center;
         margin-bottom: 20px;
     }
 
-    .services{
+    .services {
         width: 90%;
-        
+
     }
 
-    .conteudo2{
+    .conteudo2 {
         flex-direction: column;
         align-items: center;
         text-align: center;
         width: 90%;
         margin-top: 300px;
-        margin-left: 7%; 
-        
+        margin-left: 7%;
+
     }
 
-    .section3{
+    .section3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(to top, black 35%, transparent ), url(/imagens/MLP_BG_left_1440x675.jpg);
+        background: linear-gradient(to top, black 35%, transparent), url(/imagens/MLP_BG_left_1440x675.jpg);
         background-position: top top;
         background-repeat: no-repeat;
         height: 1000px;
-                
+
     }
 
-    .conteudo3{
+    .conteudo3 {
         flex-direction: column;
         align-items: center;
     }
 
-    
-    .infos{
+
+    .infos {
         width: 88%;
         margin-bottom: 15px;
     }
 
-    .container-texts{
+    .container-texts {
         margin-left: 0px;
     }
 }
