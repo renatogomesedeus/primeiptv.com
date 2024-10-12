@@ -39,6 +39,13 @@ section details summary {
     border-radius: 5px;
     
 }
+h4{
+    color: #ffffff;
+}
+h4:hover{
+color: #00050d;
+transition: 0.3s;
+}
 summary:hover{   
     color: rgb(86, 125, 182);
     transition: all .1s; 
