@@ -27,7 +27,7 @@ nav {
 }
 
 .botao-assinante{    
-    margin-top: -70%;
+    margin-top: 5%;
 }
 
 .loja-responsiva{
@@ -46,9 +46,10 @@ section details summary {
     background-color: #2e749d;
     padding: 1%;
     border-bottom: 1px solid #ffffff;
-    border-radius: 5px;
-    
+    border-radius: 5px;  
+        
 }
+
 h4{
     color: #ffffff;
 }
@@ -480,6 +481,9 @@ footer p {
 }
 
 @media (max-width:1024px) {
+    summary{
+        margin-left: -2%;
+    }
     .section1 {
         background: linear-gradient(to top, black 60%, transparent), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
         height: 1000px;
