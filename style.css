@@ -483,6 +483,7 @@ footer p {
 @media (max-width:1024px) {
     summary{
         margin-left: -2%;
+        list-style-type: none !important;
     }
     .section1 {
         background: linear-gradient(to top, black 60%, transparent), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
