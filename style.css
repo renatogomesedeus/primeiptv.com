@@ -45,7 +45,7 @@ section details summary {
     height: 30px;
     background-color: #2e749d;
     padding: 1%;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 2px solid #ffffff;
     border-radius: 5px;  
         
 }
@@ -54,13 +54,13 @@ h4{
     color: #ffffff;
 }
 h4:hover{
-color: #00050d;
+color: #5d9faf;
 transition: 0.3s;
 }
 summary:hover{   
     color: rgb(86, 125, 182);
     transition: all .1s; 
-    font-size: 17px;
+    font-size: 15px;
 }
 
 section details p {
