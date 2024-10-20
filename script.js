@@ -39,3 +39,18 @@ function inicioMenu3(){
 function inicioMenuSair3(){
     inicio3.classList.remove("open")
 }
+
+var swiper = new Swiper(".swiper", {
+    cssMode: true,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+    },
+    keyboard: true,
+  });
+  
+  
