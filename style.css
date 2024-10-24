@@ -26,6 +26,13 @@ nav {
     height: 80px;
 }
 
+.margen-instalacao{   
+    background-color: #5d9faf;
+    margin-top: 5px;
+    width: 100%;
+    padding: 3%;
+}
+
 span {
     font-size: x-large;
 }
@@ -47,18 +54,13 @@ div .project-img img {
     justify-content: center;
 }
 
-@media (max-width: 450px) {
-    .swiper {
-        height: 270px;
-    }
-}
-
 .botao-assinante {
     margin-top: -4%;
 }
 
 .loja-responsiva {
     color: white;
+    
 }
 
 .loja-responsiva:hover {
