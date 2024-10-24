@@ -27,10 +27,11 @@ nav {
 }
 
 .margen-instalacao{   
-    background-color: #5d9faf;
+    background-color: #2e749d;
     margin-top: 5px;
     width: 100%;
     padding: 3%;
+    border-radius: 5px;
 }
 
 span {
