@@ -479,8 +479,9 @@ i {
     justify-content: center;
   }
   .sec-2 .img img {
-    width: 70%;
-    height: 70%;
+    width: 120%;
+    height: 100%;
+    
   }
   .sec-3 .img img {
     width: 100%;
@@ -488,9 +489,13 @@ i {
   }
 }
 @media (max-width: 718px) {
-  iframe {
-    border: 2px solid red;
-    width: ;
+  .sec-2 .img img {
+    width: 150%;
+    height: 100%;    
+  }
+  iframe {    
+    width: 70%;
+
   }
   .from {
     width: 100%;
