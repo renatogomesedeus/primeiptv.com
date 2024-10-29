@@ -26,6 +26,12 @@ nav {
     height: 80px;
 }
 
+iframe {
+    border: 2px solid #2e749d;
+    border-radius: 5px;
+    margin-top: 6px;
+}
+
 .margen-instalacao{   
     background-color: #2e749d;
     margin-top: 5px;
@@ -493,7 +499,20 @@ footer p {
     cursor: pointer;
 }
 
-@media (max-width:880px) {
+@media (max-width:1335px) {
+
+    iframe {       
+       width: 280px;
+       height: 130px;
+    }
+}
+
+@media (max-width:880px) {  
+    
+    iframe {       
+       
+        margin-top: 20px;
+     }
 
     div .project-img img {
         box-shadow: 0 1px 2px #0003;
