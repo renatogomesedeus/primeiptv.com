@@ -26,13 +26,13 @@ nav {
     height: 80px;
 }
 
-iframe {
+video {
     border: 2px solid #2e749d;
     border-radius: 10px;
     margin-top: 6px;
 }
 
-.margen-instalacao{   
+.margen-instalacao {
     background-color: #2e749d;
     margin-top: 5px;
     width: 100%;
@@ -46,7 +46,7 @@ span {
 
 div .project-img img {
     box-shadow: 0 1px 2px #0003;
-    width: 70%;   
+    width: 70%;
     border-radius: 10px;
 }
 
@@ -67,7 +67,7 @@ div .project-img img {
 
 .loja-responsiva {
     color: white;
-    
+
 }
 
 .loja-responsiva:hover {
@@ -501,22 +501,22 @@ footer p {
 
 @media (max-width:1335px) {
 
-    iframe {       
-       width: 280px;
-       height: 130px;
+    video {
+        width: 280px;
+        height: 130px;
     }
 }
 
-@media (max-width:880px) {  
-    
-    iframe {       
-       
+@media (max-width:880px) {
+
+    video {
+
         margin-top: 20px;
-     }
+    }
 
     div .project-img img {
         box-shadow: 0 1px 2px #0003;
-        width: 85%;   
+        width: 85%;
         border-radius: 10px;
     }
 
@@ -536,6 +536,12 @@ footer p {
 }
 
 @media (max-width:1024px) {
+
+    video {
+        width: 275px;
+        height: 260px;
+    }
+    
     summary {
         margin-left: -2%;
         list-style-type: none !important;
