@@ -545,6 +545,9 @@ footer p {
     summary {
         margin-left: -2%;
         list-style-type: none !important;
+        min-height: 50px; /* Define uma altura mínima */
+        display: flex; /* Garante que a altura será respeitada */
+        align-items: center; /* Alinha o texto verticalmente */
     }
 
     .section1 {
