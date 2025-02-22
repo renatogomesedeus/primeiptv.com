@@ -550,6 +550,10 @@ footer p {
         align-items: center; /* Alinha o texto verticalmente */
     }
 
+    summary::-webkit-details-marker {
+        display: none; /* Remove a seta no Chrome, Safari e Edge */
+    }
+    
     .section1 {
         background: linear-gradient(to top, black 60%, transparent), url(/imagens/BRND_MTH23_PVMagnetLeft_1440x675_POST_Final_noLocale_DOT7094._SX1440_CR575\,0\,865\,675_QL80_AC_FP_.jpg);
         height: 1000px;
